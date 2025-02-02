@@ -1,0 +1,19 @@
+{
+  "name": "ui-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "bv-tests-chrome-prod": "cross-env TEST_ENV=prod npx playwright test --project=chromium && npx playwright show-report",
+    "bv-tests-chrome-dev": "cross-env TEST_ENV=dev npx playwright test --project=chromium && npx playwright show-report"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.50.0",
+    "@types/node": "^22.12.0",
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.4.7"
+  }
+}

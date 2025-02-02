@@ -1,0 +1,9 @@
+{
+    "TestCase1": {
+      "searchQuery": "Employee Education in 2018: Strategies to Watch"
+    },
+    "TestCase2": {
+      "searchCenterQuery": "New York",
+      "urlTextToVerify": "child-care-locator"
+    }
+  }
